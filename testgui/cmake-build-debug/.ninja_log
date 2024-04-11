@@ -1,0 +1,18 @@
+# ninja log v5
+1	219	7345243844232484	build.ninja	337aa9b726980427
+28	4750	7345235208031092	CMakeFiles/testgui.dir/BabyPhotoshop/main.cpp.obj	c74bdb16e097769c
+7	8468	7345238169292786	CMakeFiles/imgui.dir/ImGui/imgui.cpp.obj	6b279a5a0d40f40b
+17	3523	7345235195753945	CMakeFiles/testgui.dir/BabyPhotoshop/gui.cpp.obj	597380195c85a226
+3983	9155	7345238176254138	CMakeFiles/imgui.dir/ImGui/imgui_widgets.cpp.obj	483f5df05ef02ce2
+19	2699	7345242976727956	CMakeFiles/imgui.dir/ImGui/imgui_demo.cpp.obj	9221ef28ba37ed80
+26	6398	7345238148647999	CMakeFiles/imgui.dir/ImGui/imgui_draw.cpp.obj	1bcb6cb23723fc5c
+3349	3890	7345242988695934	libimgui.a	bf1c627ecc97497b
+28	3500	7345238623432284	CMakeFiles/babyphotoshop.dir/BabyPhotoshop/gui.cpp.obj	5a73c345f17bfd48
+9	5076	7345242332391648	CMakeFiles/babyphotoshop.dir/BabyPhotoshop/main.cpp.obj	9a0b3786f60ffd38
+8	4478	7345240243999002	CMakeFiles/imgui.dir/ImGui/imgui_impl_dx9.cpp.obj	5e8345aaf4bc6276
+17	4564	7345240244966403	CMakeFiles/imgui.dir/ImGui/imgui_impl_win32.cpp.obj	57eb507751c02fb
+9	3525	7345243261884218	CMakeFiles/runner.dir/BabyPhotoshop/gui.cpp.obj	a76a80f99381b50f
+8	3349	7345242983250926	CMakeFiles/imgui.dir/ImGui/imgui_tables.cpp.obj	1ce5da7e27f92c6b
+18	4891	7345243275577585	CMakeFiles/runner.dir/BabyPhotoshop/main.cpp.obj	e4ef432cf9083754
+7	2867	7345244034858925	CMakeFiles/photoshop.dir/BabyPhotoshop/gui.cpp.obj	4bd8235914d3bb1e
+14	4160	7345244047794281	CMakeFiles/photoshop.dir/BabyPhotoshop/main.cpp.obj	ca8ed8cb08cbd3ea

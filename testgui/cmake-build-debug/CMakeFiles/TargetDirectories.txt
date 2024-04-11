@@ -1,0 +1,4 @@
+D:/Programming (D)/Assignments/FCAI-CU/Structured Programming/testgui/cmake-build-debug/CMakeFiles/imgui.dir
+D:/Programming (D)/Assignments/FCAI-CU/Structured Programming/testgui/cmake-build-debug/CMakeFiles/photoshop.dir
+D:/Programming (D)/Assignments/FCAI-CU/Structured Programming/testgui/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programming (D)/Assignments/FCAI-CU/Structured Programming/testgui/cmake-build-debug/CMakeFiles/rebuild_cache.dir
