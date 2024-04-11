@@ -1,0 +1,3 @@
+D:/Programming (D)/Assignments/FCAI-CU/Structured Programming/Assignmet_3/task_1/cmake-build-debug/CMakeFiles/task_1.dir
+D:/Programming (D)/Assignments/FCAI-CU/Structured Programming/Assignmet_3/task_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programming (D)/Assignments/FCAI-CU/Structured Programming/Assignmet_3/task_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

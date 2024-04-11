@@ -61,10 +61,11 @@ void flip_horizontally_f5(Image &image1){
             }
         }
     }
-    image1 = new_image;
+    new_image.saveImage("temp.jpg");
+    image1.loadNewImage("temp.jpg");
     cout << "Image flipped Horizontally successfully." << endl;
 }
-Image flip_vertically_f5(Image image1){
+void flip_vertically_f5(Image &image1){
     Image new_image(image1.width, image1.height); // Create a new image with the same dimensions
     for (int i = 0; i < image1.height; i++) {      // Iterate over rows
         for (int j = 0; j < image1.width; j++) {   // Iterate over columns
@@ -73,8 +74,9 @@ Image flip_vertically_f5(Image image1){
             }
         }
     }
+    new_image.saveImage("temp.jpg");
+    image1.loadNewImage("temp.jpg");
     cout << "Image flipped Vertically successfully." << endl;
-    return new_image;
 }
 void brightness_f7(Image &image) {
     string choice;
@@ -164,7 +166,7 @@ void brightness_f7(Image &image) {
     }
     cout << "Changed Image Brightness successfully." << endl;
 }
-void boxBlur_f12(Image& image) {
+void boxBlur_f12(Image &image) {
     string number;
     cout << "Please Enter the radius to compute the kernel size\n";
     cout << "Make sure to choose numbers from 1 to 10.\nYou can choose higher values but it would go so slow\n";
@@ -279,7 +281,7 @@ int main() {
         cout << "Welcome in baby photoshop\n";
         cout << "Choose an operation to apply on the Image\n";
         cout << "1) Load an Image.\n2) Save an Image.\n3) Grey filter.\n4) Black&White filter.\n5) Invert colors filter.\n";
-        cout << "6) Flip Image.\n7) Blur Image.\n8) Brightness Editor\n9) Exit.\n";
+        cout << "6) Flip Image.\n7) Blur Image.\n8) Brightness Editor.\n9) Remove Current Image.\n10) Exit.\n";
         string choice;
         cin >> choice;
 
@@ -309,7 +311,7 @@ int main() {
                 flip_horizontally_f5(image1);
             }
             else{
-                image1 = flip_vertically_f5(image1);
+                flip_vertically_f5(image1);
             }
         }
         else if(choice == "7" && isLoaded){
@@ -318,11 +320,16 @@ int main() {
         else if(choice == "8" && isLoaded){
             brightness_f7(image1);
         }
-        else if(choice == "9" || choice == "exit"){
+        else if(choice == "9" && isLoaded){
+            cout << "Current Image removed successfully\n";
+            isLoaded = false;
+        }
+        else if(choice == "10" || choice == "exit"){
+            cout << "Thank You for using our Baby Photoshop.\n";
             break;
         }
         else{
-            cout << "Load an image first please\n";
+            cout << "Error occurred. Please load an image first.\n";
         }
     }
     return 0;
